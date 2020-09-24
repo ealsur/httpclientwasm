@@ -16,7 +16,7 @@ namespace ConsoleApp
                 requestMessage,
                 HttpCompletionOption.ResponseHeadersRead);
 
-            Console.WriteLine("Is null" + responseMessage.RequestMessage == null);
+            Console.WriteLine("Is null " + (responseMessage.RequestMessage == null));
         }
     }
 }
